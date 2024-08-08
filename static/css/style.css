@@ -202,23 +202,11 @@ section {
     width: 100%;
     height: auto;
     background-color: #161616;
-    margin-top: -6px;
-   
-
-}
-
-.py-list {
-    width: 650px;
-    height: auto;
-    border-radius: 20px;
-    padding-top: 10px;
-    margin-top: 120px;
-    margin-bottom: 50px;
-    background-color: #0e0e0e;
     position: sticky;
     top: 0;
-    color: #fefefe;
 }
+
+
 
 ul li {
     text-decoration: none;
@@ -276,12 +264,7 @@ a {
         color: #fefefe;
     }
 
-    .galeria {
-        width: 100%;
-        padding-left: 0;
-        margin-left: 0;
-        gap: 2rem;
-    }
+ 
 
     .text-ct {
         max-width: 80%;
@@ -320,9 +303,7 @@ a {
        
     }
 
-    .py-list {
-        width: 400px;
-    }
+    
 
     .perfil-main {
        
@@ -336,7 +317,7 @@ a {
     .contant-py {
         width: 100%;
         border: none;
-        margin-top: -6px;
+       
     }
 
     .py-list {
