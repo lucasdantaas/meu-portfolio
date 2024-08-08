@@ -150,7 +150,7 @@ p {
         font-size: 60px;
     }
     .cabecalho-menu {
-        flex-direction: column;
+        flex-direction:row;
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -173,7 +173,7 @@ p {
         font-size: 20px;
      }
     .cabecalho {
-        flex-direction: column;
+        flex-direction: row;
     }
     .cabecalho-menu {
         padding-left: 10px;
@@ -212,7 +212,11 @@ p {
         width: 180px;
         height: 180px;
     }
+    .slider{
+        height: 500px;
+    }
 }
+
 
 
 
@@ -555,6 +559,9 @@ p {
     .content2>div, .content3>div{
         min-height: 110px;
     }
+    .slider{
+        height: 500px;
+    }
 }
 
 @media screen and (max-width:600px){
@@ -564,6 +571,7 @@ p {
     .subContainer{
         flex-direction: column;
     }
+
 }
 
 .galeria{
