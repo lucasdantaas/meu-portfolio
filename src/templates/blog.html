@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/blog.css">
+    <title>MeuBlog</title>
+</head>
+<body>
+    {% block home %}{% endblock %}
+    {% block content %}
+
+ <header>
+
+ </header>
+    <div class="nav-back">
+        <nav></nav>
+    </div>
+    <main>
+        
+        <div class="main-cent">
+            <div class="perfil">
+                <h1>MEU DIA</h1>
+            </div>
+            <div class="envi">
+                <strong><p id="envi" style="color: pink;"></p></strong>
+            </div>
+        </div>
+        <div class="main-left">
+            <img src="../static/image/gb.jpeg"  >
+            <h2 style="margin-bottom: 15px; color: pink;" id="name"></h2>
+            <p id="idad" style="margin-bottom: 10px;">Idade: </p>
+            <p id="cit">Cidade: </p>
+        </div>
+
+    </main>
+
+    <section>
+        <div class="blog-form">
+            <form onsubmit="blogger(); return false;">
+                <label for="nome">Seu Nome: </label>
+                <input type="text" name="nome" placeholder="Nome" required>
+                <label for="idade">Sua Idade: </label>
+                <input type="number" name="idade" value="idade"placeholder="Sua idade" required>
+                <label for="cidade">Sua Cidade</label>
+                <input type="text" name="cidade" placeholder="Sua cidade" required>
+                
+            </form>
+        </div>
+        <div class="env-blog">
+            <form onsubmit="blogger(); return false;">
+            <label for="blog">Como foi seu dia:</label>
+            <textarea name="blog" id=" blog" required></textarea>
+            <input type="submit"  value="Enviar" style="width: 80px; border-radius: 20px; border: none; align-items: center;justify-content: center;" required>
+                </form>
+        </div>  
+    </section>
+
+    <script>
+        function blogger(){
+            var nome = document.querySelector('input[name="nome"]').value;
+            var idade = document.querySelector('input[name="idade"]').value;
+            var cidade = document.querySelector('input[name="cidade"]').value;
+            var blog = document.querySelector('textarea[name="blog"]').value;
+
+            document.getElementById("name").innerHTML = nome;
+            document.getElementById("idad").innerHTML = "Idade: " + idade + " anos";
+            document.getElementById("cit").innerHTML = "Cidade: " + cidade;
+            document.getElementById("envi").innerHTML = blog;
+       }
+
+    </script>
+    <footer>
+
+    </footer>
+
+    {% endblock %}
+</body>
+</html>

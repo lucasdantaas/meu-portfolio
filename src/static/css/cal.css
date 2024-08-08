@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background-color: black;
+
+}
+
+
+.front{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.front-base{
+    width: 360px;
+    height: auto;
+    padding: 24px;
+    background-color: #161616;
+    border-radius: 25px;
+    display:block;
+    border: 2px solid #cc4e00;
+    filter: drop-shadow(1px 1px 20px #cc4e00);
+   
+}
+
+input{
+    width: 100%;
+    height: 35px;
+    background-color: #cc4e00;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    color: #fefefe;
+    text-align: center;
+    font-size: 24px;
+    border: none;
+    
+    
+}
+.front-fun{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    display: grid;
+    background-color: #cc4e00;
+    margin-top: 15px;
+    border-radius: 5px;
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 2px 0;
+}
+
+button {
+    padding: 12px 10px;
+    font-size: 16px;
+    background: #cc4e00;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    flex: 1;
+    margin: 0 2px;
+    border-radius: 5px;
+}
+
+
+
+@media (max-width: 768px) {
+    .front {
+        width: 90%;
+        padding: 5;
+        margin-top: 20px;
+    }
+}
