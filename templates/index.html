@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    {%  block home %}{% endblock %}
+
+    {% block content %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../static/css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poly:ital@0;1&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal"></script>
+  
+
+    <title> Portfolio </title>
+</head>
+<body>        
+    <header class="cabecalho">
+        
+        <nav class="cabecalho-menu">
+            <a class="cabecalho-menu-item" href=""><strong>APRESENTAÇÃO</strong></a>
+            <a class="cabecalho-menu-item" href=""><strong>PROJETOS</strong></a>
+            <a class="cabecalho-menu-item" href=""><strong>CONTATOS</strong></a>
+        </nav>
+        
+ 
+    </header>
+
+    <main >
+        <div   class="perfil-main" style="background-image: url('../static/image/lucas.png'); margin-bottom: 20px; width: 500px; height: 480px; border-image: fill 0.5 linear-gradient( transparent, transparent, transparent, transparent, #0e0e0e);" ></div>
+        
+        <div class="mn-text">
+            <div class="cssanimation typing text-1 bebas-neue-regular"><h1>Sou Lucas Dantas</h1></div>
+            <p style="transition: transform 0.3s ease, box-shadow 0.3s ease;color: #fefefe; margin-bottom: 30px;  justify-content: center; display: flex;">Desenvolvedor Full Stack com especialidade e um sólido conhecimento
+                 em HTML,CSS,JavaScript,MySQL e Python.<br>
+                  Capacidade de transformar ideias em websites e aplicações web dinâmicas e atraentes.
+           </p>
+            <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 128 128"><g fill-rule="evenodd" clip-rule="evenodd"><path fill="#386f9f" d="M51.834 23.017c3.756 0 7.512.058 11.263-.04c.995-.026 2.78.797 2.7-1.271c-.061-1.683-1.622-1.074-2.568-1.089c-4.237-.067-8.488-.228-12.708.037c-3.003.187-3.888-.953-3.511-3.707c.13-.95.005-1.934.025-2.902c.132-6.446 1.69-8.64 7.942-10.23c6.888-1.75 13.937-1.692 20.806-.184c6.175 1.356 8.74 6.16 8.428 10.604c-.38 5.423-.086 10.893-.091 16.343c-.009 6.853-3.55 10.49-10.459 10.585c-5.69.078-11.387.14-17.074-.018c-6.778-.19-11.75 5.44-11.784 11.82c0 .484.083.984-.013 1.451c-.488 2.343 1.462 6.13-1.022 6.826c-3.78 1.062-8.206 1.062-11.54-2.311c-1.13-1.14-2.082-2.417-2.584-3.893c-2.679-7.865-3.102-15.83-.58-23.818c1.572-4.986 5.848-8.087 11.145-8.176c3.874-.065 7.749-.013 11.623-.013zm6.902-11.12c-.162-1.903-1.185-3.292-3.296-3.35c-2.309-.06-3.502 1.336-3.505 3.608c-.002 2.106 1.145 3.455 3.241 3.516c2.303.067 3.418-1.36 3.56-3.774"/><path fill="#ffcf46" d="M80.824 61.572c-4.24 0-8.482-.037-12.722.03c-.955.012-2.557-.592-2.607 1.041c-.056 1.852 1.663 1.37 2.755 1.381c4.24.053 8.484.098 12.723-.02c2.178-.06 3.067.357 3.23 2.925c.737 11.625-4.308 12.63-13.613 14.745c-5.338 1.213-11.061.57-16.325-1.788c-4.353-1.947-7.024-4.753-6.687-10.007c.334-5.186.39-10.439-.009-15.62c-.48-6.253 3.41-10.852 10.975-10.854c5.09-.001 10.214-.389 15.26.075c7.215.662 12.872-5.592 13.12-12.864c.01-.241-.052-.5.01-.724c.636-2.235-1.626-5.557 1.4-6.686c4.573-1.705 9.73.087 12.066 3.557c2.945 4.369 3.343 9.51 3.819 14.53c.515 5.411-1.003 10.505-3.276 15.386c-1.544 3.31-4.14 4.91-7.757 4.915c-4.12.003-8.239 0-12.36 0zm-1.104 10.8c-.453-2.066-1.385-3.476-3.785-3.535c-2.496-.06-3.14 1.807-3.127 3.474c.014 1.772.508 3.952 3.21 3.748c2.246-.172 3.341-1.563 3.702-3.687"/><path fill="#386f9f" d="M14.129 114.849c0 2.582.117 5-.055 7.397c-.074 1.034 1.066 2.98-1.103 2.978c-1.912 0-2.403-1.522-2.342-3.361c.117-3.51.034-7.027.034-10.54v-7.998c0-4.82 1.293-6.452 5.903-7.45c4.286-.932 7.654.511 9.386 4.263c1.732 3.753 1.866 7.62.133 11.438c-1.708 3.762-4.854 5.166-8.884 4.051c-.918-.25-1.845-.467-3.072-.778m0-9.448c0 1.33.18 2.686-.037 3.98c-.502 2.991 1.408 3.728 3.66 4.26c2.227.526 3.754-.421 4.647-2.383c1.501-3.29 1.753-6.683.613-10.162c-1.012-3.092-3.349-3.454-6.077-3.07c-2.694.383-3.059 2.215-2.824 4.48c.1.955.018 1.93.018 2.895m28.987 9.288c-1.845.48-3.447.992-5.087 1.3c-3.59.671-6.248-1.3-7.183-4.894c-1.16-4.448-.178-8.879-.148-13.317c.013-2.023 1.885-1.234 3.18-2.318c0 4.75.018 8.85-.006 12.947c-.013 2.058.519 3.75 2.465 4.835c2.148 1.198 3.91.057 5.78-.712c1.34-.551 1.173-1.676 1.175-2.746c.01-3.872-.001-7.74.012-11.612c.002-.955-.097-2.122 1.313-2.075c1.257.041 1.804.788 1.783 2.158c-.091 6.407.09 12.823-.17 19.221c-.197 4.838-3.61 7.793-8.52 8.01c-.735.031-1.505.099-1.78-.813c-.419-1.404.718-1.139 1.465-1.378c5.401-1.718 6.107-2.744 5.721-8.606M65.94 98.064c1.429-.675 2.25-1.293 3.153-1.46c5.067-.937 8.95-.58 8.94 6.245c-.007 3.515.002 7.031-.007 10.545c-.002.984.061 1.942-1.406 2.027c-1.547.092-1.887-.793-1.88-2.006c.018-3.387.11-6.774.107-10.16c-.002-2.63-.539-4.958-3.884-4.95c-2.934.005-5.012 2.195-5.027 5.217a900 900 0 0 0 .003 9.814c.003 1.162.028 2.181-1.652 2.085c-1.513-.09-1.327-1.11-1.327-2.049c-.01-8.6.032-17.209-.041-25.815c-.013-1.508.582-2.444 1.92-2.508c1.888-.087 1.023 1.564 1.051 2.392c.123 3.371.05 6.75.05 10.623m15.99 7.711c-.191-6.715 2.994-10.3 8.76-10.092c2.894.106 5.065 1.39 6.466 3.89c2.475 4.422 2.14 8.846-.538 12.987c-1.84 2.844-4.67 4.185-8.12 3.453c-3.402-.72-6.066-3.783-6.548-7.353c-.128-.945-.02-1.924-.02-2.885m13.32.157c-.152-1.172-.125-2.806-.613-4.264c-.667-2-1.883-3.61-4.364-3.72c-2.503-.108-3.752 1.355-4.587 3.38c-1.311 3.179-1.226 6.371.194 9.493c.912 2.011 2.32 3.483 4.76 3.075c2.403-.401 3.821-1.976 4.312-4.313c.223-1.059.187-2.168.298-3.65zm7.007.895c0-1.212-.023-2.422.004-3.628c.056-2.325-.685-4.901 2.45-6.089c3.59-1.356 7.148-2.372 10.762-.273c1.352.786 1.85 2.214 1.864 3.73c.037 4.231-.019 8.464.038 12.695c.02 1.476-.368 2.214-2.027 2.174c-1.818-.043-1.435-1.283-1.423-2.273c.043-3.38.278-6.757.214-10.132c-.084-4.25-2.416-5.983-6.389-4.94c-1.648.434-2.678 1.234-2.597 3.274c.161 3.982.037 7.978.052 11.967c.004 1.156.021 2.18-1.647 2.083c-1.528-.088-1.278-1.145-1.29-2.062c-.028-2.176-.008-4.353-.011-6.526m-43.568-9.424c-.25.296-.46.76-.68.764c-3.964.055-2.864 3.014-2.966 5.209c-.097 2.045 0 4.1-.029 6.151c-.03 2.038.147 3.932 2.627 4.473c.711.154 1.035.564.887 1.274c-.163.784-.788.753-1.407.745c-2.85-.05-4.963-2.065-5.047-5.015c-.086-3.014.031-6.035-.04-9.046c-.037-1.43.706-3.255-1.6-3.822c-.253-.061-.343-.778-.508-1.187c3.076-.965 1.8-3.618 2.222-5.631c.2-.953 1.105-1.214 1.96-1.295c.865-.082.872.618.9 1.203c.114 2.32-1.087 5.425 3.184 5.256c.143-.005.31.562.497.92z"/></g></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 128 128"><path fill="#e44d26" d="M19.037 113.876L9.032 1.661h109.936l-10.016 112.198l-45.019 12.48z"/><path fill="#f16529" d="m64 116.8l36.378-10.086l8.559-95.878H64z"/><path fill="#ebebeb" d="M64 52.455H45.788L44.53 38.361H64V24.599H29.489l.33 3.692l3.382 37.927H64zm0 35.743l-.061.017l-15.327-4.14l-.979-10.975H33.816l1.928 21.609l28.193 7.826l.063-.017z"/><path fill="#fff" d="M63.952 52.455v13.763h16.947l-1.597 17.849l-15.35 4.143v14.319l28.215-7.82l.207-2.325l3.234-36.233l.335-3.696h-3.708zm0-27.856v13.762h33.244l.276-3.092l.628-6.978l.329-3.692z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 128 128"><path fill="#1572b6" d="M18.814 114.123L8.76 1.352h110.48l-10.064 112.754l-45.243 12.543z"/><path fill="#33a9dc" d="m64.001 117.062l36.559-10.136l8.601-96.354h-45.16z"/><path fill="#fff" d="M64.001 51.429h18.302l1.264-14.163H64.001V23.435h34.682l-.332 3.711l-3.4 38.114h-30.95z"/><path fill="#ebebeb" d="m64.083 87.349l-.061.018l-15.403-4.159l-.985-11.031H33.752l1.937 21.717l28.331 7.863l.063-.018z"/><path fill="#fff" d="m81.127 64.675l-1.666 18.522l-15.426 4.164v14.39l28.354-7.858l.208-2.337l2.406-26.881z"/><path fill="#ebebeb" d="M64.048 23.435v13.831H30.64l-.277-3.108l-.63-7.012l-.331-3.711zm-.047 27.996v13.831H48.792l-.277-3.108l-.631-7.012l-.33-3.711z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 128 128"><defs><radialGradient id="deviconAzuresqldatabase0" cx="9.36" cy="10.57" r="7.07" fx="9.36" fy="10.57" gradientTransform="matrix(73.03125 0 0 37.1875 29.797 56.535)"><stop offset="0" stop-color="#f2f2f2"/><stop offset=".58" stop-color="#eee"/><stop offset="1" stop-color="#e6e6e6"/></radialGradient><linearGradient id="deviconAzuresqldatabase1" x1="2.59" x2="15.41" y1="10.16" y2="10.16" gradientTransform="scale(7.11111)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#005ba1"/><stop offset=".07" stop-color="#0060a9"/><stop offset=".36" stop-color="#0071c8"/><stop offset=".52" stop-color="#0078d4"/><stop offset=".64" stop-color="#0074cd"/><stop offset=".82" stop-color="#006abb"/><stop offset="1" stop-color="#005ba1"/></linearGradient></defs><path fill="url(#deviconAzuresqldatabase1)" d="M64 36.55c-25.172 0-45.582-7.109-45.582-16.495v87.89c0 9.032 20.055 16.356 44.941 16.5H64c25.172 0 45.582-7.113 45.582-16.5v-87.89c0 9.172-20.41 16.496-45.582 16.496Zm0 0"/><path fill="#e8e8e8" d="M109.582 20.055c0 9.172-20.41 16.496-45.582 16.496s-45.582-7.11-45.582-16.496c0-9.387 20.41-16.5 45.582-16.5s45.582 7.113 45.582 16.5"/><path fill="#50e6ff" d="M98.988 18.703c0 5.832-15.718 10.524-34.988 10.524s-34.988-4.692-34.988-10.524S44.73 8.25 64 8.25s34.988 4.691 34.988 10.453"/><path fill="#198ab3" d="M64 21.332a82.2 82.2 0 0 0-27.664 4.055A81.2 81.2 0 0 0 64 29.227a79.3 79.3 0 0 0 27.664-4.125A84.3 84.3 0 0 0 64 21.332m0 0"/><path fill="url(#deviconAzuresqldatabase0)" d="M91.734 81.066V56.891h-6.402v29.367h17.496v-5.192ZM40.961 69.191a13 13 0 0 1-3.629-2.203a3.13 3.13 0 0 1-.852-2.277a2.42 2.42 0 0 1 1.067-2.133a4.85 4.85 0 0 1 2.988-.855a11.53 11.53 0 0 1 7.11 2.062v-6.113a18.2 18.2 0 0 0-7.11-1.137a11.67 11.67 0 0 0-7.754 2.414a7.68 7.68 0 0 0-2.984 6.332c0 3.625 2.273 6.469 7.11 8.602c1.57.668 3.05 1.527 4.41 2.562a2.98 2.98 0 0 1 1.066 2.274c0 .879-.426 1.699-1.137 2.207a5.8 5.8 0 0 1-3.203.781a11.8 11.8 0 0 1-7.75-2.988v6.613a15.4 15.4 0 0 0 7.61 1.707c2.98.176 5.933-.648 8.39-2.348a7.68 7.68 0 0 0 2.348-6.468a7.46 7.46 0 0 0-1.778-4.977a17.2 17.2 0 0 0-5.902-4.055m37.262 11.305a16.63 16.63 0 0 0 2.347-8.957A16.5 16.5 0 0 0 78.223 64a12.87 12.87 0 0 0-4.977-5.332a14.2 14.2 0 0 0-7.113-1.852a15 15 0 0 0-7.68 1.922A13.2 13.2 0 0 0 53.262 64a17.5 17.5 0 0 0-1.848 8.105a16.06 16.06 0 0 0 1.707 7.114a12.53 12.53 0 0 0 4.906 5.261a14.7 14.7 0 0 0 7.11 2.133l6.117 7.11h8.605l-8.75-7.82a12.74 12.74 0 0 0 7.114-5.407m-7.114-1.777a6.67 6.67 0 0 1-5.402 2.488a6.54 6.54 0 0 1-5.406-2.559a10.84 10.84 0 0 1-2.063-7.109a10.9 10.9 0 0 1 2.063-7.113a7.1 7.1 0 0 1 5.547-2.63a6.18 6.18 0 0 1 5.336 2.63a11.53 11.53 0 0 1 1.918 7.113a10.35 10.35 0 0 1-1.993 7.18m0 0"/></svg>
+            </div>
+        </div>
+    </main>
+
+   <section class="pjt-front">
+
+        <div class="pjt-front-text">
+                <div class="text-ct">
+                    <h3>Portfólio Online</h3>
+                    <p>Criado um site pessoal responsivo para exibir meus projetos e habilidades.Utilizei HTML, CSS e JavaScript para criar um layout moderno e interativo.</p>
+                </div>
+                <div class="text-ct">
+                    <h3>Landing Page</h3>
+                    <p>Desenvolveu uma landing page atraente para promover um evento.Utilizei Bootstrap para criar um layout responsivo e incluir elementos de chamada para ação.</p>
+                </div>
+                <div class="text-ct">
+                    <h3>E-commerce</h3>
+                    <p>Crei um site e-commerce simples com Html, css e Javascript.Incluiu funcionalidades como carrinho de compreas,checkout e processamento de pedidos.</p>
+                </div>     
+        </div>
+    </section>
+    
+     <div class="h-anim" ></div>
+    
+    
+    
+    <section class="contant-py">
+        <div class="sel-main">
+        <div class="main-ri">
+            <h2 style="text-align: center; color: #fefefe;">Projetos Python</h2>
+            <ul class="base-list">
+                <div style="background-color: #1c584c90;padding: 5px; margin: 5px; border-radius: 15px; ">
+                <li class="py-list-item cssanimation typing text-1 bebas-neue-regular"><a href="/calculadora" >Calculadora</a></li>
+                <p class="cssanimation typing text-1 bebas-neue-regular" style="margin-left: 25px; margin-top: 10px;margin-bottom: 10px; color: #fefefe;">Html,css, python e flask.</p>
+                </div>
+                <div style="background-color: #1c584c90;padding: 5px; margin: 5px; border-radius: 15px;">
+                <li class="py-list-item cssanimation typing text-1 bebas-neue-regular"><a href="/blog" >Blog Pessoal</a></li>
+                <p class="cssanimation typing text-1 bebas-neue-regular" style="margin-left: 25px; margin-top: 10px;margin-bottom: 10px; color: #fefefe;">Html,css, python e flask.</p>
+                </div>
+                
+        </ul>
+        </div>
+        <div class="main-cent">
+            <div class="perfil">
+            </div>
+            <div class="envi">
+                <strong><p class="styl-perf" >E-mail: </p></strong><p>Dantas.lucasaugusto@gmail.com</p>
+                <strong><p class="styl-perf">Telefone: </p></strong><p>61993667295</p>
+                <strong><p class="styl-perf">Cidade: </p></strong><p>Brasilia</p>
+
+
+            </div>
+        </div>
+        <div class="main-left">
+            <h2 style="text-align: center; color: #1c584c;">Projetos Websites</h2>
+            <ul class="base-list">
+                <div style="background-color: #0e0e0e;padding: 5px; margin: 5px; border-radius: 15px; ">
+                <li class="py-list-item cssanimation typing text-1 bebas-neue-regular"><a href="/projetista" style="color: #1c584c;">Projetista</a></li>
+                <p class="cssanimation typing text-1 bebas-neue-regular" style="margin-left: 25px; margin-top: 10px;margin-bottom: 10px; color: #1c584c;">Html,css, python e flask.</p>
+                </div>
+                <div style="background-color: #0e0e0e;padding: 5px; margin: 5px; border-radius: 15px;">
+                <li class="py-list-item cssanimation typing text-1 bebas-neue-regular"><a href="/blog" style="color: #1c584c;">Restaurante</a></li>
+                <p class="cssanimation typing text-1 bebas-neue-regular" style="margin-left: 25px; margin-top: 10px;margin-bottom: 10px; color: #1c584c;">Html,css, python e flask.</p>
+                </div>
+                
+        </ul>
+        </div>
+        </div>
+    </section>
+    <footer></footer>
+</body>
+
+{% endblock %}
+</html>
